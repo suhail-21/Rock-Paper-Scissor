@@ -92,17 +92,11 @@ function game(userChoice){
     }
 }
 function main(){
-    rock_div.addEventListener('click', function(){
-        game('R');
-    });
+    rock_div.addEventListener('click', ()=> game('R'));
     
-    paper_div.addEventListener('click', function(){
-        game('P');
-    });
+    paper_div.addEventListener('click', ()=> game('P'));
     
-    scissors_div.addEventListener('click', function(){
-        game('S');
-    });
+    scissors_div.addEventListener('click', ()=> game('S'));
 }
 
 main();
